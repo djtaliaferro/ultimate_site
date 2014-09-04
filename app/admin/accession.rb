@@ -1,4 +1,5 @@
 ActiveAdmin.register Accession do
+  permit_params :accession_number, :collection_date, :date_received
 
 
   # See permitted parameters documentation:
