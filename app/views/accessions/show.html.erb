@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Accession number:</strong>
+  <%= @accession.accession_number %>
+</p>
+
+<p>
+  <strong>Collection date:</strong>
+  <%= @accession.collection_date %>
+</p>
+
+<p>
+  <strong>Date received:</strong>
+  <%= @accession.date_received %>
+</p>
+
+<%= link_to 'Edit', edit_accession_path(@accession) %> |
+<%= link_to 'Back', accessions_path %>
