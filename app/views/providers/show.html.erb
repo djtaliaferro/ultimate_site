@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @provider.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @provider.last_name %>
+</p>
+
+<p>
+  <strong>Npi number:</strong>
+  <%= @provider.npi_number %>
+</p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @provider.phone_number %>
+</p>
+
+<p>
+  <strong>Fax number:</strong>
+  <%= @provider.fax_number %>
+</p>
+
+<%= link_to 'Edit', edit_provider_path(@provider) %> |
+<%= link_to 'Back', providers_path %>
