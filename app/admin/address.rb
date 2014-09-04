@@ -1,4 +1,5 @@
 ActiveAdmin.register Address do
+  permit_params :address
 
 
   # See permitted parameters documentation:
